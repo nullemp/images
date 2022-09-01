@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-01T05:55:59.024Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="YbOZsBSj92F3nAG9gl5z" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-01T05:57:21.424Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="LVZvqdzWpevqPiR52YRt" version="20.2.7" type="github">
   <diagram id="7oIH4jy8F8y5lydFxuAi" name="第 1 页">
     <mxGraphModel dx="2034" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
         <mxCell id="2sfyKtDVMwlXpg-KksxC-5" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;read&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2sfyKtDVMwlXpg-KksxC-7" value="已就绪" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="2sfyKtDVMwlXpg-KksxC-7" value="已就绪" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="470" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2sfyKtDVMwlXpg-KksxC-8" value="" style="endArrow=classic;html=1;rounded=0;fontSize=20;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="2sfyKtDVMwlXpg-KksxC-1" target="2sfyKtDVMwlXpg-KksxC-2">
@@ -88,7 +88,7 @@
         <mxCell id="2sfyKtDVMwlXpg-KksxC-26" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;read&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="520" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2sfyKtDVMwlXpg-KksxC-27" value="拷贝结束" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="2sfyKtDVMwlXpg-KksxC-27" value="拷贝结束" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
           <mxGeometry x="470" y="520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2sfyKtDVMwlXpg-KksxC-28" value="" style="endArrow=classic;html=1;rounded=0;fontSize=13;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2sfyKtDVMwlXpg-KksxC-27" target="2sfyKtDVMwlXpg-KksxC-26">
@@ -113,6 +113,12 @@
         </mxCell>
         <mxCell id="2sfyKtDVMwlXpg-KksxC-33" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;内核缓冲区拷贝到用户缓冲区&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="640" y="430" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2sfyKtDVMwlXpg-KksxC-34" value="&lt;b&gt;应用进程&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="120" y="40" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2sfyKtDVMwlXpg-KksxC-35" value="&lt;b&gt;内核&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="500" y="40" width="60" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
